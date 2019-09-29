@@ -1,4 +1,3 @@
-var port = process.env.PORT || 3000;
 var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
@@ -17,7 +16,5 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
-
-console.log("Server running at http://127.0.0.1:" + port + "/");
 
 module.exports = app;
