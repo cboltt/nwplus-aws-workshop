@@ -1,9 +1,14 @@
 {
-  "name": "Elastic-Beanstalk-Sample-App",
-  "version": "0.0.1",
+  "name": "nwplus-aws-workshop",
+  "version": "0.0.0",
   "private": true,
-  "dependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
   }
 }
