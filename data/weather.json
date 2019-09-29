@@ -1,0 +1,233 @@
+[
+  {
+    "coord": { "lon": -0.13, "lat": 51.51 },
+    "weather": [
+      {
+        "id": 300,
+        "main": "Drizzle",
+        "description": "light intensity drizzle",
+        "icon": "09d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 280.32,
+      "pressure": 1012,
+      "humidity": 81,
+      "temp_min": 279.15,
+      "temp_max": 281.15
+    },
+    "visibility": 10000,
+    "wind": { "speed": 4.1, "deg": 80 },
+    "clouds": { "all": 90 },
+    "dt": 1485789600,
+    "sys": {
+      "type": 1,
+      "id": 5091,
+      "message": 0.0103,
+      "country": "GB",
+      "sunrise": 1485762037,
+      "sunset": 1485794875
+    },
+    "id": 2643743,
+    "name": "London",
+    "cod": 200
+  },
+  {
+    "coord": { "lon": 145.77, "lat": -16.92 },
+    "weather": [
+      {
+        "id": 802,
+        "main": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 300.15,
+      "pressure": 1007,
+      "humidity": 74,
+      "temp_min": 300.15,
+      "temp_max": 300.15
+    },
+    "visibility": 10000,
+    "wind": { "speed": 3.6, "deg": 160 },
+    "clouds": { "all": 40 },
+    "dt": 1485790200,
+    "sys": {
+      "type": 1,
+      "id": 8166,
+      "message": 0.2064,
+      "country": "AU",
+      "sunrise": 1485720272,
+      "sunset": 1485766550
+    },
+    "id": 2172797,
+    "name": "Cairns",
+    "cod": 200
+  },
+  {
+    "coord": { "lon": 139.01, "lat": 35.02 },
+    "weather": [
+      { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01n" }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 285.514,
+      "pressure": 1013.75,
+      "humidity": 100,
+      "temp_min": 285.514,
+      "temp_max": 285.514,
+      "sea_level": 1023.22,
+      "grnd_level": 1013.75
+    },
+    "wind": { "speed": 5.52, "deg": 311 },
+    "clouds": { "all": 0 },
+    "dt": 1485792967,
+    "sys": {
+      "message": 0.0025,
+      "country": "JP",
+      "sunrise": 1485726240,
+      "sunset": 1485763863
+    },
+    "id": 1907296,
+    "name": "Tawarano",
+    "cod": 200
+  },
+  {
+    "coord": { "lon": -123.12, "lat": 49.26 },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 287.55,
+      "pressure": 1015,
+      "humidity": 41,
+      "temp_min": 285.37,
+      "temp_max": 289.26
+    },
+    "visibility": 16093,
+    "wind": { "speed": 2.6, "gust": 7.2 },
+    "clouds": { "all": 75 },
+    "dt": 1569797446,
+    "sys": {
+      "type": 1,
+      "id": 5232,
+      "message": 0.0097,
+      "country": "CA",
+      "sunrise": 1569766138,
+      "sunset": 1569808594
+    },
+    "timezone": -25200,
+    "id": 6173331,
+    "name": "Vancouver",
+    "cod": 200
+  },
+  {
+    "coord": { "lon": -75.69, "lat": 45.42 },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 284.64,
+      "pressure": 1029,
+      "humidity": 54,
+      "temp_min": 284.26,
+      "temp_max": 285.15
+    },
+    "visibility": 24140,
+    "wind": { "speed": 4.1, "deg": 350 },
+    "clouds": { "all": 75 },
+    "dt": 1569797667,
+    "sys": {
+      "type": 1,
+      "id": 872,
+      "message": 0.0078,
+      "country": "CA",
+      "sunrise": 1569754681,
+      "sunset": 1569797290
+    },
+    "timezone": -14400,
+    "id": 6094817,
+    "name": "Ottawa",
+    "cod": 200
+  },
+  {
+    "coord": { "lon": -79.39, "lat": 43.65 },
+    "weather": [
+      { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01d" }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 286.49,
+      "pressure": 1028,
+      "humidity": 62,
+      "temp_min": 285.37,
+      "temp_max": 287.59
+    },
+    "visibility": 14484,
+    "wind": { "speed": 4.6, "deg": 80 },
+    "clouds": { "all": 1 },
+    "dt": 1569797538,
+    "sys": {
+      "type": 1,
+      "id": 941,
+      "message": 0.0091,
+      "country": "CA",
+      "sunrise": 1569755543,
+      "sunset": 1569798203
+    },
+    "timezone": -14400,
+    "id": 6167865,
+    "name": "Toronto",
+    "cod": 200
+  },
+  {
+    "coord": { "lon": -73.61, "lat": 45.5 },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 284.72,
+      "pressure": 1028,
+      "humidity": 54,
+      "temp_min": 283.15,
+      "temp_max": 286.15
+    },
+    "visibility": 48279,
+    "wind": { "speed": 3.1, "deg": 240 },
+    "clouds": { "all": 75 },
+    "dt": 1569797629,
+    "sys": {
+      "type": 1,
+      "id": 943,
+      "message": 0.0073,
+      "country": "CA",
+      "sunrise": 1569754182,
+      "sunset": 1569796790
+    },
+    "timezone": -14400,
+    "id": 6077243,
+    "name": "Montreal",
+    "cod": 200
+  }
+]
