@@ -7,6 +7,25 @@
   </head>
 
   <body>
-    <p class="PlaceholderText">neato, a blank page</p>
+    <main role="main">
+      <form class="Form" id="weather-form">
+        <span>
+          What's the weather in
+          <input
+            type="text"
+            aria-label="City Name"
+            placeholder="city name..."
+            name="city"
+          />
+          <button aria-label="Get Weather" type="submit">GO</button>
+          ?
+        </span>
+      </form>
+      <section role="section" class="Response">
+        <span id="response-output" class="empty">Empty Response</span>
+      </section>
+    </main>
+
+    <script src="/javascripts/getWeather.js"></script>
   </body>
 </html>
