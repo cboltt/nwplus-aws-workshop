@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", function() {
       fetch("/weather/" + city, options)
         .then(r => r.json())
         .then(data => {
-          if (data.error) {
-            outputResponse("error", "City not found");
-          } else if (data.weather) {
+          if (data.weather) {
             outputResponse("weather", data.weather[0].description);
+          } else {
+            outputResponse("error", data.message);
           }
         });
     });

@@ -9,7 +9,7 @@ router.get("/:city", function(req, res, next) {
   if (matchingCityData) {
     res.json(matchingCityData);
   } else {
-    res.status(404).json({ error: "City not found" });
+    res.status(404).json({ message: "City not found" });
   }
 });
 
