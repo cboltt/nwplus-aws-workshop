@@ -30,6 +30,10 @@ main {
   font-size: 5rem;
 }
 
+.Response span {
+  transition: 0.3s all;
+}
+
 .Response .empty {
   opacity: 0;
 }
