@@ -1,0 +1,35 @@
+/* Form element styles */
+input,
+button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+input {
+  color: blue;
+  border-bottom: 2px solid grey;
+}
+
+button[type="submit"] {
+  margin: 0;
+  padding: 0;
+  margin-left: -54px;
+  color: blue;
+  font-weight: 600;
+  opacity: 0;
+  font-size: 2rem;
+}
+
+input:focus {
+  border-bottom: 2px solid blue;
+}
+
+input:focus + button {
+  opacity: 1;
+}
