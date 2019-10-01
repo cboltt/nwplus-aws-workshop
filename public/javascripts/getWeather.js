@@ -9,7 +9,6 @@ function outputResponse(className, message) {
 
   outputElement.classList = className;
   outputElement.innerHTML = message;
-  document.activeElement.blur();
 }
 
 // Handles the response of the weather API call
@@ -37,6 +36,7 @@ function getCityInputValue() {
 // with given city name
 function handleFormSubmit(event) {
   event.preventDefault();
+  document.activeElement.blur();
 
   fetch("/weather/" + getCityInputValue(), {
     method: "get",
