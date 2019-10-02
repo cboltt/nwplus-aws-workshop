@@ -4,7 +4,10 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 var request = require("request");
 
-var weatherData = require("./data/weather.json");
+var fakeWeatherData = require("./data/weather.json");
+
+var API_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather";
+var API_TOKEN = "Enter your API ID here";
 
 var app = express();
 
@@ -21,10 +24,16 @@ app.get("/", function(req, res, next) {
 
 /* GET weather page. */
 app.get("/weather/:city", function(req, res, next) {
-  var matchingCityData = weatherData.find(item => item.name == req.params.city);
+  /*
+  TODO: Let's use a real API to get weather data
+  API url: API_ENDPOINT + "?q=" + cityName + "&units=metric&appid=" + API_TOKEN
+  */
 
-  if (matchingCityData) {
-    res.json(matchingCityData);
+  var cityName = req.params.city;
+  var fakeWeather = fakeWeatherData.find(item => item.name == cityName);
+
+  if (fakeWeather) {
+    res.json(fakeWeather);
   } else {
     res.status(404).json({ message: "City not found" });
   }

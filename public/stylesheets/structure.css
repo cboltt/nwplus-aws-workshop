@@ -42,6 +42,8 @@ main {
   opacity: 1;
 }
 
+/* TODO: Add opacity setting for loading state */
+
 /* Desktop styles */
 @media only screen and (min-width: 768px) {
   main {

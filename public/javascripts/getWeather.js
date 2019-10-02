@@ -14,9 +14,13 @@ function outputResponse(className, message) {
 // Handles the response of the weather API call
 function handleFormResponse(data) {
   if (data.weather) {
-    outputResponse("weather", data.weather[0].description);
+    // TODO: Add tempature to response output
+
+    var weatherOutput = data.weather[0].description;
+    outputResponse("weather", weatherOutput);
   } else {
-    outputResponse("error", data.message);
+    var errorOutput = data.message;
+    outputResponse("error", errorOutput);
   }
 }
 
@@ -38,6 +42,7 @@ function handleFormSubmit(event) {
   event.preventDefault();
   document.activeElement.blur();
 
+  // TODO: Add loading state output
   fetch("/weather/" + getCityInputValue(), {
     method: "get",
     headers: { "Content-Type": "application/json" }
