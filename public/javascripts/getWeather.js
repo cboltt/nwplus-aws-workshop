@@ -14,9 +14,7 @@ function outputResponse(className, message) {
 // Handles the response of the weather API call
 function handleFormResponse(data) {
   if (data.weather) {
-    // TODO: Add tempature to response output
-
-    var weatherOutput = data.weather[0].description;
+    // TODO: Add temperature to response output
     outputResponse("weather", weatherOutput);
   } else {
     var errorOutput = data.message;
