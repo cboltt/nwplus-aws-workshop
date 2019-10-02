@@ -11,7 +11,7 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 280.32,
+      "temp": 10.5,
       "pressure": 1012,
       "humidity": 81,
       "temp_min": 279.15,
@@ -45,7 +45,7 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 300.15,
+      "temp": 15.1,
       "pressure": 1007,
       "humidity": 74,
       "temp_min": 300.15,
@@ -74,7 +74,7 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 285.514,
+      "temp": 14.0,
       "pressure": 1013.75,
       "humidity": 100,
       "temp_min": 285.514,
@@ -107,7 +107,7 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 287.55,
+      "temp": 12.3,
       "pressure": 1015,
       "humidity": 41,
       "temp_min": 285.37,
@@ -142,7 +142,7 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 284.64,
+      "temp": 9.0,
       "pressure": 1029,
       "humidity": 54,
       "temp_min": 284.26,
@@ -172,7 +172,7 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 286.49,
+      "temp": 10.2,
       "pressure": 1028,
       "humidity": 62,
       "temp_min": 285.37,
@@ -207,7 +207,7 @@
     ],
     "base": "stations",
     "main": {
-      "temp": 284.72,
+      "temp": 8.0,
       "pressure": 1028,
       "humidity": 54,
       "temp_min": 283.15,
