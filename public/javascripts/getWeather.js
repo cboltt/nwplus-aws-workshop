@@ -43,7 +43,7 @@ function handleFormSubmit(event) {
   document.activeElement.blur();
 
   // TODO: Add loading state output
-  fetch("/weather/" + getCityInputValue(), {
+  fetch(`/weather/${getCityInputValue()}`, {
     method: "get",
     headers: { "Content-Type": "application/json" }
   })

@@ -26,7 +26,7 @@ app.get("/", function(req, res, next) {
 app.get("/weather/:city", function(req, res, next) {
   /*
   TODO: Let's use a real API to get weather data
-  API url: API_ENDPOINT + "?q=" + cityName + "&units=metric&appid=" + API_TOKEN
+  API url: `${API_ENDPOINT}?q=${cityName}&units=metric&appid=${API_TOKEN}`
   */
 
   var cityName = req.params.city;
