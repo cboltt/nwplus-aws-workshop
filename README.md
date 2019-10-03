@@ -16,3 +16,7 @@ To view code for the other checkpoints, switch the branch.
 Download the checkpoint 0 code by clicking the green "Clone or download" button above, then clicking "Download ZIP".
 (Alternatively, you can clone this repository if you are comfortable using `git`).
 ![Clone or download interface](https://i.ibb.co/VBYZD9m/Screen-Shot-2019-09-29-at-12-13-25-PM.png)
+
+### QuickStart
+
+Follow the slides to get step-by-step instructions on how to run this project or jump in with `npm install` and `npm run devstart`.
