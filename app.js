@@ -7,7 +7,7 @@ var request = require("request");
 var fakeWeatherData = require("./data/weather.json");
 
 var API_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather";
-var API_TOKEN = "Enter your API ID here";
+var API_KEY = "Enter your API Key here";
 
 var app = express();
 
@@ -26,7 +26,7 @@ app.get("/", function(req, res, next) {
 app.get("/weather/:city", function(req, res, next) {
   /*
   TODO: Let's use a real API to get weather data
-  API url: `${API_ENDPOINT}?q=${cityName}&units=metric&appid=${API_TOKEN}`
+  API url: `${API_ENDPOINT}?q=${cityName}&units=metric&appid=${API_KEY}`
   */
 
   var cityName = req.params.city;
