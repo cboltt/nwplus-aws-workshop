@@ -15,6 +15,7 @@ function outputResponse(className, message) {
 function handleFormResponse(data) {
   if (data.weather) {
     // TODO: Add temperature to response output
+    var weatherOutput = data.weather[0].description;
     outputResponse("weather", weatherOutput);
   } else {
     var errorOutput = data.message;
