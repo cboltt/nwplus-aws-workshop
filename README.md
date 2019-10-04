@@ -1,21 +1,19 @@
-# nwPlus AWS Workshop for LHD Learn Day
+# [nwPlus](https://www.nwplus.io) AWS Workshop for [UBC Local Hack Day: Learn Day](https://lhd.nwplus.io)
 
 AWS Workshop for Local Hack Day: Learn Day 2019
-
-## Checkpoint 3: Add Loading State
 
 ### How to Participate
 
 This repo is meant to be used in conjunction with the AWS Workshop at UBC's Local Hack Day: Learn Day. [Find the slides for the workshop here](/slides/nwPlus-AWS-workshop.pdf).
 
-The workshop is broken into 3 different checkpoints.
+The workshop is broken into 3 different checkpoints. This is the **master branch** and is equilivant to Checkpoint 3.
 
-**This branch is for Checkpoint 3: Add Loading State**.
-To view code for the other checkpoints, switch the branch.
+You can view code for each of the checkpoints below:
 
-Download the checkpoint 3 code by clicking the green "Clone or download" button above, then clicking "Download ZIP".
-(Alternatively, you can clone this repository if you are comfortable using `git`).
-![Clone or download interface](https://i.ibb.co/VBYZD9m/Screen-Shot-2019-09-29-at-12-13-25-PM.png)
+- [Checkpoint 0: Starter Files](https://github.com/cbolton97/nwplus-aws-workshop/tree/cp0)
+- [Checkpoint 1: Show Temperature](https://github.com/cbolton97/nwplus-aws-workshop/tree/cp1)
+- [Checkpoint 2: Use Real Data](https://github.com/cbolton97/nwplus-aws-workshop/tree/cp2)
+- [Checkpoint 3: Add Loading State](https://github.com/cbolton97/nwplus-aws-workshop/tree/cp3)
 
 ### QuickStart
 
