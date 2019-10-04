@@ -42,7 +42,10 @@ main {
   opacity: 1;
 }
 
-/* TODO: Add opacity setting for loading state */
+/* DONE: Add opacity setting for loading state */
+.Response .loading {
+  opacity: 0.1;
+}
 
 /* Desktop styles */
 @media only screen and (min-width: 768px) {
