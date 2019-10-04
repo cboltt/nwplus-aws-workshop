@@ -25,20 +25,18 @@ app.get("/", function(req, res, next) {
 /* GET weather page. */
 app.get("/weather/:city", function(req, res, next) {
   /*
-  TODO: Let's use a real API to get weather data
+  DONE: Let's use a real API to get weather data
   function: request(url, function(error, response, body){})
   url:      `${API_ENDPOINT}?q=${cityName}&units=metric&appid=${API_KEY}`
   data:     JSON.parse(body)
   */
 
   var cityName = req.params.city;
-  var fakeWeather = fakeWeatherData.find(item => item.name == cityName);
+  var url = `${API_ENDPOINT}?q=${cityName}&units=metric&appid=${API_KEY}`;
 
-  if (fakeWeather) {
-    res.json(fakeWeather);
-  } else {
-    res.status(404).json({ message: "City not found" });
-  }
+  request(url, function(error, response, body) {
+    res.json(JSON.parse(body));
+  });
 });
 
 module.exports = app;
