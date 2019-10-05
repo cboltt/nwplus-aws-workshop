@@ -100,14 +100,14 @@
     "weather": [
       {
         "id": 803,
-        "main": "Clouds",
-        "description": "broken clouds",
+        "main": "Sunny",
+        "description": "super sunny",
         "icon": "04d"
       }
     ],
     "base": "stations",
     "main": {
-      "temp": 12.33,
+      "temp": 36.33,
       "pressure": 1015,
       "humidity": 41,
       "temp_min": 285.37,
