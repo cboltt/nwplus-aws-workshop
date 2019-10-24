@@ -6,7 +6,7 @@ AWS Workshop for Local Hack Day: Learn Day 2019
 
 ### How to Participate
 
-This repo is meant to be used in conjunction with the AWS Workshop at UBC's Local Hack Day: Learn Day. Slides for the workshop will be released at a later date.
+This repo is meant to be used in conjunction with the AWS Workshop at UBC's Local Hack Day: Learn Day. [Find the slides for the workshop here](/slides/nwPlus-AWS-workshop.pdf).
 
 The workshop is broken into 3 different checkpoints.
 
@@ -20,3 +20,7 @@ Download the checkpoint 0 code by clicking the green "Clone or download" button 
 ### QuickStart
 
 Follow the slides to get step-by-step instructions on how to run this project or jump in with `npm install` and `npm run devstart`.
+
+### Acknowledgments
+
+Code by Chris Bolton. Slides written and presented by Anita Tse and Chris Bolton. Loosely based on material provided by Major League Hacking.
